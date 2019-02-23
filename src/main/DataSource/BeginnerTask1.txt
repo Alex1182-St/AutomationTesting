@@ -1,0 +1,2 @@
+1. Given an array of integer numbers. Create a method (program) which returns a new one where
+each element is multiplied by 3
