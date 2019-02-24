@@ -27,7 +27,7 @@ public class BeginnerTask1 {
         System.out.println(readExcCell.excelReadCell(arrayDataAddress, sheetNumber, rowNumber, cellNumber));
 
 
-        System.out.println("\nЗначення одного стовпчика");
+        System.out.println("\nЗначення однієї колонки");
         ExcelGetColumnAllData readEcxColumn = new ExcelGetColumnAllData();
         System.out.println(readEcxColumn.excelReadColumn(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
@@ -36,6 +36,15 @@ public class BeginnerTask1 {
         ArrayListCreationFromExcel arrFromEcl = new ArrayListCreationFromExcel();
         System.out.println(arrFromEcl.arrListCreat(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
+
+        System.out.println("\nВесь Ексель + номер ячейки");
+        int sheetNM = 0;
+        ExcelGetAllCellDataAndReference allExc = new ExcelGetAllCellDataAndReference();
+        allExc.excelGetAll(arrayDataAddress,sheetNM);
+
+        System.out.println("\n №2 - Весь Ексель + номер ячейки");
+        ExcelGetAllCellDataAndReference2 allExc2 = new ExcelGetAllCellDataAndReference2();
+        allExc2.excelGetAll2(arrayDataAddress,sheetNM);
 
     }}
 
