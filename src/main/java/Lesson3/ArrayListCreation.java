@@ -7,11 +7,12 @@ public class ArrayListCreation {
 
     public ArrayList arrListCreat (int a) {
 
+
     ArrayList<Integer> myArr = new ArrayList<>();
 
     while (a <= 20) {
         myArr.add(a);
-        a ++;
+        a=a+5;
     }
 
     return myArr;

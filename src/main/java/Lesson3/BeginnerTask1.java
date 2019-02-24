@@ -8,7 +8,6 @@ public class BeginnerTask1 {
 
 
         System.out.println("\nМасив");
-
         ArrayListCreation newArray = new ArrayListCreation();
         int a = 5;
         System.out.println(newArray.arrListCreat(a));
@@ -30,7 +29,12 @@ public class BeginnerTask1 {
 
         System.out.println("\nЗначення одного стовпчика");
         ExcelGetColumnAllData readEcxColumn = new ExcelGetColumnAllData();
-        System.out.println(readEcxColumn.excelReadColumn(arrayDataAddress,sheetNumber,cellNumber));
+        System.out.println(readEcxColumn.excelReadColumn(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
+
+
+        System.out.println("\nМасив з Ексель-файла");
+        ArrayListCreationFromExcel arrFromEcl = new ArrayListCreationFromExcel();
+        System.out.println(arrFromEcl.arrListCreat(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
 
     }}
