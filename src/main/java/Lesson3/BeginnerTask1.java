@@ -1,6 +1,5 @@
 package Lesson3;
 
-import Lesson3.GetExcelData.ExcelGetAllData;
 import Lesson3.GetExcelData.ExcelGetCellData;
 import Lesson3.GetExcelData.ExcelGetColumnAllData;
 
@@ -21,18 +20,28 @@ public class BeginnerTask1 {
         ExcelGetCellData readExcCell = new ExcelGetCellData();
         System.out.println(readExcCell.excelReadCell(arrayDataAddress, sheetNumber, rowNumber, cellNumber));
 
-        System.out.println("\n Стовпчик з Ексель-файлу");
+
+        System.out.println("\n Один стовпчик (колонка) з Ексель-файлу");
         ExcelGetColumnAllData columnFromExcl = new ExcelGetColumnAllData();
         System.out.println(columnFromExcl.excelReadColumn(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
 
-        System.out.println("\nМасив з Ексель-файлу");
-        ArrayListCreationFromExcel arrFromEcl = new ArrayListCreationFromExcel();
+        System.out.println("\nМасив з стовпчика(колонки) Ексель-файлу");
+        ArrayListCellFromExcel arrFromEcl = new ArrayListCellFromExcel();
         System.out.println(arrFromEcl.arrListCreat(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
-        System.out.println("\nМноження масиву");
-      /*  ArrayMultiplicationByInt arrMult = new ArrayMultiplicationByInt();
-        System.out.println(arrMult.arrayMult(arrFromEcl,3));
+
+
+        /*
+        System.out.println("\nInteger Масив з Ексель-файлу");
+        ArrayListIntFromExcel intArrFromExc = new ArrayListIntFromExcel();
+        System.out.println(intArrFromExc.arrListIntCreat(arrayDataAddress));
         */
+
+      /*
+        System.out.println("\nМноження масиву");
+        ArrayMultiplicationByInt arrMult = new ArrayMultiplicationByInt();
+        System.out.println(arrMult.arrayMult(arrFromEcl,3));
+      */
 
 
     }}

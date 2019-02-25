@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 
 
-public class ArrayListCreationFromExcel {
+public class ArrayListCellFromExcel {
 
     public ArrayList arrListCreat (String excelPath, int sheet,int row, int cell) throws IOException {
 
