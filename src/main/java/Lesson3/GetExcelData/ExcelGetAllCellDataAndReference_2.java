@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.GetExcelData;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellReference;
@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 
-public class ExcelGetAllCellDataAndReference2 {
+public class ExcelGetAllCellDataAndReference_2 {
 
     public void  excelGetAll2 (String fileAddress, int sheet) throws IOException {
 

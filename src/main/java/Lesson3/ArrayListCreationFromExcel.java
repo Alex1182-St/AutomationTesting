@@ -18,13 +18,12 @@ public class ArrayListCreationFromExcel {
 
         Workbook excelWB = WorkbookFactory.create(new File(excelPath));
 
-        ArrayList<Cell> myArr = new ArrayList<>();
+        ArrayList<Cell> myArr = new ArrayList<Cell>();
 
-        int ro = 0;
 
-        while (ro <= excelWB.getSheetAt(sheet).getLastRowNum()) {
+        while (row <= excelWB.getSheetAt(sheet).getLastRowNum()) {
             myArr.add(excelWB.getSheetAt(sheet).getRow(row).getCell(cell));
-            ro = ro+1;
+            row = row+1;
         }
         excelWB.close();
 

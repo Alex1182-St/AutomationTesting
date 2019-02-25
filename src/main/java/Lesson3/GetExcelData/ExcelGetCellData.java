@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.GetExcelData;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Workbook;

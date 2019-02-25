@@ -1,5 +1,9 @@
 package Lesson3;
 
+import Lesson3.GetExcelData.ExcelGetAllData;
+import Lesson3.GetExcelData.ExcelGetCellData;
+import Lesson3.GetExcelData.ExcelGetColumnAllData;
+
 import java.io.IOException;
 
 public class BeginnerTask1 {
@@ -7,44 +11,29 @@ public class BeginnerTask1 {
     public static void main(String[] args) throws IOException {
 
 
-        System.out.println("\nМасив");
-        ArrayListCreation newArray = new ArrayListCreation();
-        int a = 5;
-        System.out.println(newArray.arrListCreat(a));
-
-
-        System.out.println("\nВесь Excel-файл");
-        String arrayDataAddress = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayData1.xlsx";
-        ExcelGetAllData readExcel = new ExcelGetAllData();
-        readExcel.excelReadMethod(arrayDataAddress);
+        String arrayDataAddress = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayData1.xlsx";
+        int sheetNumber = 0;
+        int rowNumber = 2;
+        int cellNumber = 3;
 
 
         System.out.println("\nЗначення однієї ячейки");
-        int sheetNumber = 0;
-        int rowNumber = 5;
-        int cellNumber = 2;
         ExcelGetCellData readExcCell = new ExcelGetCellData();
         System.out.println(readExcCell.excelReadCell(arrayDataAddress, sheetNumber, rowNumber, cellNumber));
 
+        System.out.println("\n Стовпчик з Ексель-файлу");
+        ExcelGetColumnAllData columnFromExcl = new ExcelGetColumnAllData();
+        System.out.println(columnFromExcl.excelReadColumn(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
-        System.out.println("\nЗначення однієї колонки");
-        ExcelGetColumnAllData readEcxColumn = new ExcelGetColumnAllData();
-        System.out.println(readEcxColumn.excelReadColumn(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
-
-        System.out.println("\nМасив з Ексель-файла");
+        System.out.println("\nМасив з Ексель-файлу");
         ArrayListCreationFromExcel arrFromEcl = new ArrayListCreationFromExcel();
         System.out.println(arrFromEcl.arrListCreat(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
+        System.out.println("\nМноження масиву");
+      /*  ArrayMultiplicationByInt arrMult = new ArrayMultiplicationByInt();
+        System.out.println(arrMult.arrayMult(arrFromEcl,3));
+        */
 
-
-        System.out.println("\nВесь Ексель + номер ячейки");
-        int sheetNM = 0;
-        ExcelGetAllCellDataAndReference allExc = new ExcelGetAllCellDataAndReference();
-        allExc.excelGetAll(arrayDataAddress,sheetNM);
-
-        System.out.println("\n №2 - Весь Ексель + номер ячейки");
-        ExcelGetAllCellDataAndReference2 allExc2 = new ExcelGetAllCellDataAndReference2();
-        allExc2.excelGetAll2(arrayDataAddress,sheetNM);
 
     }}
 

@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.GetExcelData;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -13,17 +13,20 @@ public class ExcelGetColumnAllData {
     public Cell excelReadColumn (String excelPath, int sheet, int row, int cell) throws IOException {
 
 
+        //ВЫВОД В КОНСОЛЬ
+
         Workbook excelWB = WorkbookFactory.create(new File(excelPath));
 
-        int ro = 0;
 
         Cell ce = null;
 
-        while (ro <= excelWB.getSheetAt(sheet).getLastRowNum()) {
+        while (row <= excelWB.getSheetAt(sheet).getLastRowNum()) {
 
-            ce = excelWB.getSheetAt(sheet).getRow(row).getCell(cell);
+           ce = excelWB.getSheetAt(sheet).getRow(row).getCell(cell);
 
-            ro = ro + 1;
+            System.out.println(ce);
+
+            row = row + 1;
 
         }
 
