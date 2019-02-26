@@ -31,10 +31,25 @@ public class BeginnerTask1 {
         System.out.println(arrFromEcl.arrListCreat(arrayDataAddress,sheetNumber,rowNumber,cellNumber));
 
 
+        System.out.println("\nArray1 from Excel");
+        ArrayListIntFromExcel arrFromExcl = new ArrayListIntFromExcel();
+        System.out.println(arrFromExcl.arrListIntCreat(arrayDataAddress));
+
+
+        System.out.println("\nArray2 from Excel");
+        ArrayListIntFromExcel_2 arrFromExcl2 = new ArrayListIntFromExcel_2();
+        System.out.println(arrFromExcl2.arrListIntCreat2(arrayDataAddress));
+
+        System.out.println("\nArrayString from Excel");
+        ArrayListStringFromExcel arrFromExcl3 = new ArrayListStringFromExcel();
+        System.out.println(arrFromExcl3.arrListStringCreat(arrayDataAddress));
+
+
+
         /*
         System.out.println("\nInteger Масив з Ексель-файлу");
         ArrayListIntFromExcel intArrFromExc = new ArrayListIntFromExcel();
-        System.out.println(intArrFromExc.arrListIntCreat(arrayDataAddress));
+        System.out.println(intArrFromExc.arrListIntCreat2(arrayDataAddress));
         */
 
       /*
