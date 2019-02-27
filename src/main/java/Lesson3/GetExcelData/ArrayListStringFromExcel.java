@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.GetExcelData;
 
 
 import org.apache.poi.ss.usermodel.*;
@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 
 public class ArrayListStringFromExcel {
+
+    // нужно проверить на правильность
 
     public ArrayList arrListStringCreat (String excelPath) throws IOException {
 

@@ -1,20 +1,25 @@
 package Lesson3;
 
-import Lesson3.GetExcelData.ExcelGetCellData;
-import Lesson3.GetExcelData.ExcelGetColumnAllData;
-
 import java.io.IOException;
 
 public class BeginnerTask1 {
 
     public static void main(String[] args) throws IOException {
 
-
+        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask1.txt";
         String arrayDataAddress = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayData1.xlsx";
-        int sheetNumber = 0;
-        int rowNumber = 2;
-        int cellNumber = 3;
 
+        System.out.println("Task1. Beginner level");
+        TaskDescriptionRead TaskDescription1 = new TaskDescriptionRead();
+        TaskDescription1.taskDescriptionReading(taskDescriptionPath);
+        IntArrayListFromExcel arrFromExcelFile = new IntArrayListFromExcel();
+        arrFromExcelFile.arrListDoubleCreat(arrayDataAddress);
+        System.out.println("\nFirst array is\n" + arrFromExcelFile.arrListDoubleCreat(arrayDataAddress));
+        MultiplicationArrayByInt multiplicationResult = new MultiplicationArrayByInt();
+        System.out.println("\nResult is\n" + multiplicationResult.arrayMult(arrFromExcelFile.arrListDoubleCreat(arrayDataAddress),3));
+
+
+/*
 
         System.out.println("\nЗначення однієї ячейки");
         ExcelGetCellData readExcCell = new ExcelGetCellData();
@@ -44,18 +49,6 @@ public class BeginnerTask1 {
         ArrayListStringFromExcel arrFromExcl3 = new ArrayListStringFromExcel();
         System.out.println(arrFromExcl3.arrListStringCreat(arrayDataAddress));
 
-
-
-        /*
-        System.out.println("\nInteger Масив з Ексель-файлу");
-        ArrayListIntFromExcel intArrFromExc = new ArrayListIntFromExcel();
-        System.out.println(intArrFromExc.arrListIntCreat2(arrayDataAddress));
-        */
-
-      /*
-        System.out.println("\nМноження масиву");
-        ArrayMultiplicationByInt arrMult = new ArrayMultiplicationByInt();
-        System.out.println(arrMult.arrayMult(arrFromEcl,3));
       */
 
 

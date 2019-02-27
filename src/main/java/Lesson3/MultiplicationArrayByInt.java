@@ -2,7 +2,7 @@ package Lesson3;
 
 import java.util.ArrayList;
 
-public class ArrayMultiplicationByInt {
+public class MultiplicationArrayByInt {
 
  public ArrayList<Integer> arrayMult (ArrayList<Integer> arr, int multInt)
 
