@@ -1,4 +1,4 @@
-package Lesson3.GetExcelData_Training;
+package Lesson3.FromExcel_Training;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -6,32 +6,30 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 
-public class ExcelGetColumnAllData {
+public class ExcelGetColumnAllData_2 {
 
-    public Cell excelReadColumn (String excelPath, int sheet, int row, int cell) throws IOException {
+    public ArrayList<Cell> excelReadColumn (String excelPath, int sheet, int row, int cell) throws IOException {
 
 
-        //ВЫВОД В КОНСОЛЬ
+        //ВЫВОД В МАСИВ
 
         Workbook excelWB = WorkbookFactory.create(new File(excelPath));
 
-
-        Cell ce = null;
+        ArrayList<Cell> arr = new ArrayList();
 
         while (row <= excelWB.getSheetAt(sheet).getLastRowNum()) {
 
-           ce = excelWB.getSheetAt(sheet).getRow(row).getCell(cell);
-
-            System.out.println(ce);
+           arr.add(excelWB.getSheetAt(sheet).getRow(row).getCell(cell));
 
             row = row + 1;
 
         }
 
         excelWB.close();
-        return ce;
+        return arr;
 
            }
 

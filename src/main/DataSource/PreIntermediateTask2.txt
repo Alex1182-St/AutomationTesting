@@ -1,0 +1,3 @@
+2. Given a string. Write a method which swaps first and last characters and returns a new modified
+string:
+swapChar("Cool text") → "tool texC“

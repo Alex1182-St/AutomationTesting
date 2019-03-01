@@ -1,4 +1,4 @@
-package Lesson3.GetExcelData_Training;
+package Lesson3.FromExcel_Training;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellReference;

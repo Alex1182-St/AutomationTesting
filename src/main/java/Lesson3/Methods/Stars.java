@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.Methods;
 
 import java.util.ArrayList;
 import java.util.Scanner;

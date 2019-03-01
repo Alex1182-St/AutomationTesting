@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.Methods;
 
 public class IntsDivision {
 

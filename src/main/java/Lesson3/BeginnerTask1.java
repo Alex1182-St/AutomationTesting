@@ -1,5 +1,9 @@
 package Lesson3;
 
+import Lesson3.Methods.IntArrayListFromExcel;
+import Lesson3.Methods.MultiplicationArrayList;
+import Lesson3.Methods.TaskDescriptionRead;
+
 import java.io.IOException;
 
 public class BeginnerTask1 {

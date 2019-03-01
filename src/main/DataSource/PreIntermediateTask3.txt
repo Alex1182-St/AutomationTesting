@@ -1,0 +1,2 @@
+3. Given 2 integers, a and b. Write a method which returns true if one if them is 21 or if their sum
+is 21.

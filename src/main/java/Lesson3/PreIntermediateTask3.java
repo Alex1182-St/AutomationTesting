@@ -5,19 +5,19 @@ import Lesson3.Methods.TaskDescriptionRead;
 
 import java.io.IOException;
 
-public class BeginnerTask2 {
+public class PreIntermediateTask3 {
 
     public static void main(String[] args) throws IOException {
 
         String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask2.txt";
 
-        System.out.println("Task2. Beginner level");
+        System.out.println("Task3. PreIntermediate level");
         TaskDescriptionRead TaskDescription2 = new TaskDescriptionRead();
         TaskDescription2.taskDescriptionReading(taskDescriptionPath);
         ComparisonWithNumber newComparison = new ComparisonWithNumber();
-        newComparison.setX(7);
-        newComparison.setY(3);
-        newComparison.setComparable(10);
+        newComparison.setX(5);
+        newComparison.setY(25);
+        newComparison.setComparable(21);
         newComparison.getX();
         newComparison.getY();
         newComparison.getComparable();

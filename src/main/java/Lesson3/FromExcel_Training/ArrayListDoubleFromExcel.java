@@ -1,21 +1,23 @@
-package Lesson3;
+package Lesson3.FromExcel_Training;
 
 
 import org.apache.poi.ss.usermodel.*;
 
+
+
 import java.io.File;
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
 
-public class IntArrayListFromExcel {
+public class ArrayListDoubleFromExcel {
 
-    public ArrayList arrListIntCreat(String excelPath) throws IOException {
+    public ArrayList arrListIntCreat (String excelPath) {
 
         ArrayList<Double> myArr = new ArrayList<Double>();
-        ArrayList<Integer> myIntArr = new ArrayList<Integer>();
 
+            try {
                 Workbook excelWB = WorkbookFactory.create(new File(excelPath));
                 Sheet excelSheet = excelWB.getSheetAt(0);
 
@@ -32,16 +34,9 @@ public class IntArrayListFromExcel {
                         myArr.add(cell.getNumericCellValue());
 
                         } }
-
-        // перетворюю ArrayList<Double> в ArrayList<Integer>
-
-            for(Double i : myArr){
-            myIntArr.add(i.intValue());
+                excelWB.close();
             }
-
-        excelWB.close();
-
-        return myIntArr;
-
-
+            catch (Exception e) {
+                System.out.println("Error");
+            } return myArr;
     }}

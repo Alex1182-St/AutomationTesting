@@ -1,5 +1,9 @@
 package Lesson3;
 
+import Lesson3.Methods.EvenNumbers;
+import Lesson3.Methods.IntArrayListFromExcel;
+import Lesson3.Methods.TaskDescriptionRead;
+
 import java.io.IOException;
 
 public class BeginnerTask6 {
@@ -7,7 +11,7 @@ public class BeginnerTask6 {
     public static void main(String[] args) throws IOException {
 
         String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask6.txt";
-        String arrPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\Range_0-50.xlsx";
+        String arrPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayRange_0-50.xlsx";
 
         System.out.println("Task6. Beginner level");
         TaskDescriptionRead TaskDescription4 = new TaskDescriptionRead();

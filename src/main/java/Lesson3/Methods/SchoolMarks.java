@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.Methods;
 
 import java.util.HashMap;
 import java.util.Scanner;
