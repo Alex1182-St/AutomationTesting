@@ -1,4 +1,4 @@
-package Lesson3.GetExcelData;
+package Lesson3.GetExcelData_Training;
 
 
 import org.apache.poi.ss.usermodel.*;
@@ -6,13 +6,12 @@ import org.apache.poi.ss.usermodel.*;
 
 
 import java.io.File;
-import java.io.FileInputStream;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 
-public class ArrayListIntFromExcel {
+public class ArrayListDoubleFromExcel {
 
     public ArrayList arrListIntCreat (String excelPath) {
 

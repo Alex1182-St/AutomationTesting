@@ -1,6 +1,9 @@
-package Lesson3.GetExcelData;
+package Lesson3.GetExcelData_Training;
 
-import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.util.CellReference;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -9,14 +12,16 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 
-public class ExcelGetAllCellDataAndReference_2 {
+public class ExcelGetAllCellDataAndReference {
 
-    public void  excelGetAll2 (String fileAddress, int sheet) throws IOException {
+    public void  excelGetAll (String fileAddress, int sheet) throws IOException {
 
-        Workbook excelWB = WorkbookFactory.create(new File(fileAddress));
+        FileInputStream fileInStr = new FileInputStream(new File(fileAddress));
+
+        XSSFWorkbook excelWB = new XSSFWorkbook(fileInStr);
+
         DataFormatter formatter = new DataFormatter();
         Sheet sheet1 = excelWB.getSheetAt(sheet);
-
         for (Row row : sheet1) {
             for (Cell cell : row) {
                 CellReference cellRef = new CellReference(row.getRowNum(), cell.getColumnIndex());
@@ -25,7 +30,7 @@ public class ExcelGetAllCellDataAndReference_2 {
                 String text = formatter.formatCellValue(cell);
                 System.out.println(text);
 
-                excelWB.close();
+                fileInStr.close();
 
             }}}}
 

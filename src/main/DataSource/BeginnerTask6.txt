@@ -1,0 +1,1 @@
+6. Print all even numbers from range (0..50). Try to solve this in more than one way

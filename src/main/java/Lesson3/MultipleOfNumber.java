@@ -41,7 +41,7 @@ public class MultipleOfNumber {
             System.out.println("True  " + number + " is a multiple of " + b);
         }
         else
-            System.out.println("True  " + number + " is not multiple of " + a + " or " + b);
+            System.out.println("False  " + number + " is not multiple of " + a + " or " + b);
 
         NumberScanner.close();
 

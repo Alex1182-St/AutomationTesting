@@ -15,11 +15,11 @@ public class BeginnerTask4 {
     TaskDescriptionRead TaskDescription4 = new TaskDescriptionRead();
     TaskDescription4.taskDescriptionReading(taskDescriptionPath);
     IntArrayListFromExcel newArr = new IntArrayListFromExcel();
-    newArr.arrListDoubleCreat(arrayDataAddress);
-    System.out.println("\nYour array is " + newArr.arrListDoubleCreat(arrayDataAddress));
+    newArr.arrListIntCreat(arrayDataAddress);
+    System.out.println("\nYour array is " + newArr.arrListIntCreat(arrayDataAddress));
     FindQtyOfNmInArray nMQuantity = new FindQtyOfNmInArray();
         System.out.println("\n Your number is " + yourNumber);
-        System.out.println("Qty of your number in array is " + nMQuantity.qTyOfNmInArr(newArr.arrListDoubleCreat(arrayDataAddress),yourNumber));
+        System.out.println("Qty of your number in array is " + nMQuantity.qTyOfNmInArr(newArr.arrListIntCreat(arrayDataAddress),yourNumber));
 
 
 

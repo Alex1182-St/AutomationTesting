@@ -1,0 +1,3 @@
+5. There are several marks in the school: from 1 to 5 (the highest). Create a method (program)
+which takes a mark and return your result (for ex. "Excellent", "Good", "Failed" etc.). Please do
+not use if...else condition

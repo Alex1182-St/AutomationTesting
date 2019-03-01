@@ -11,7 +11,7 @@ import java.util.Iterator;
 
 public class IntArrayListFromExcel {
 
-    public ArrayList arrListDoubleCreat (String excelPath) throws IOException {
+    public ArrayList arrListIntCreat(String excelPath) throws IOException {
 
         ArrayList<Double> myArr = new ArrayList<Double>();
         ArrayList<Integer> myIntArr = new ArrayList<Integer>();
