@@ -15,7 +15,7 @@ public class BeginnerTask1 {
         IntArrayListFromExcel arrFromExcelFile = new IntArrayListFromExcel();
         arrFromExcelFile.arrListIntCreat(arrayDataAddress);
         System.out.println("\nFirst array is\n" + arrFromExcelFile.arrListIntCreat(arrayDataAddress));
-        MultiplicationArrayByInt multiplicationResult = new MultiplicationArrayByInt();
+        MultiplicationArrayList multiplicationResult = new MultiplicationArrayList();
         System.out.println("\nResult is\n" + multiplicationResult.arrayMult(arrFromExcelFile.arrListIntCreat(arrayDataAddress),3));
 
 

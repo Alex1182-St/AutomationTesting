@@ -1,0 +1,2 @@
+9. Create method which takes two integers (a and b), performs their division (a/b) and outputs
+accurate result of division (this means the result should have a decimal part, if any)

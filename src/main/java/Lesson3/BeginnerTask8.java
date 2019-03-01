@@ -7,7 +7,7 @@ public class BeginnerTask8 {
 
     public static void main(String[] args) throws IOException {
 
-        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask7.txt";
+        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask8.txt";
         String strng = "\nTesting";
 
         System.out.println("Task8. Beginner level");
