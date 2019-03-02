@@ -1,0 +1,1 @@
+5. You don't like number 7 and number 9. Write a method which checks input array and returns True if the array doesn't contain your unloved numbers

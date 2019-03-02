@@ -1,0 +1,1 @@
+7. Given an array of integers. Write a method which finds max and min elements in it and multiplies them by 2

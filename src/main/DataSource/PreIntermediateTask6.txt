@@ -1,0 +1,1 @@
+6. Given an array of integers. Write a method which calculates sum of all elements and arithmetic average of them"

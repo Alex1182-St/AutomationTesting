@@ -1,0 +1,1 @@
+4. Given an array of integers. Write a method which prints the second half of the array. Include the middle element to output, if the array has odd number of elements
