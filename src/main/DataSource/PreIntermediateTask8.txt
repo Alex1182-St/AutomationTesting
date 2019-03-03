@@ -1,0 +1,1 @@
+8. Write a method which calculates a sum of first 100 odd elements of Fibonacci sequence

@@ -1,0 +1,4 @@
+9. Write a method which prints multiplication table for the input number. Like this:
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
