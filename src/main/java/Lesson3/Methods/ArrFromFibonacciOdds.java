@@ -2,7 +2,7 @@ package Lesson3.Methods;
 
 import java.util.ArrayList;
 
-public class OddNumbFiboArr {
+public class ArrFromFibonacciOdds {
 
 
     public ArrayList oddArr (ArrayList<Integer> arr, int length) {
