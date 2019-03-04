@@ -9,6 +9,7 @@ public class OddNumbersArr {
 
         ArrayList<Integer> odd = new ArrayList<Integer>();
 
+
         for (int i : arr) {
             if (i%2!=0)
                 odd.add(i);
