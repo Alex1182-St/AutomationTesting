@@ -10,7 +10,8 @@ public class PreIntermediateTask8 {
     public static void main(String[] args) throws IOException {
 
         String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\PreIntermediateTask8.txt";
-        int fiboLength = 100;
+        int fiboLength = 50;
+        int oddLength = 20;
 
 
         System.out.println("Task8. PreIntermediate level");
@@ -20,9 +21,9 @@ public class PreIntermediateTask8 {
         FibonacciArray newFiboArr = new FibonacciArray();
         newFiboArr.fiboArr(fiboLength);
         System.out.println("\nYour Fibonacci sequence is \n" + newFiboArr.fiboArr(fiboLength));
-        OddNumbersArr newOddarr = new OddNumbersArr();
-        newOddarr.oddArr(newFiboArr.fiboArr(fiboLength));
-        ArrayList<Integer> newFibOddArr = newOddarr.oddArr(newFiboArr.fiboArr(fiboLength));
+        OddNumbFiboArr newOddarr = new OddNumbFiboArr();
+        newOddarr.oddArr(newFiboArr.fiboArr(fiboLength), oddLength);
+        ArrayList<Integer> newFibOddArr = newOddarr.oddArr(newFiboArr.fiboArr(fiboLength),oddLength);
         System.out.println("\nYour odd numbers from Fibonacci are \n" + newFibOddArr);
         ArrElementsSum newOddsum = new ArrElementsSum();
         newOddsum.arrSum(newFibOddArr);
