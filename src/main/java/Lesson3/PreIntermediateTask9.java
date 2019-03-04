@@ -9,7 +9,7 @@ public class PreIntermediateTask9 {
 
     public static void main(String[] args) throws IOException {
 
-        String taskDescriptionPath = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\PreIntermediateTask9.txt";
+        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\PreIntermediateTask9.txt";
 
         System.out.println("Task9. PreIntermediate level");
         TaskDescriptionRead TaskDescription8 = new TaskDescriptionRead();
