@@ -19,7 +19,8 @@ public class EvenNumbers {
 
         System.out.println("\nSecond method " + "Even: ");
 
-          for (int i = 0; i <= rangeArr.size(); i = i + 2) {
-              System.out.print(i + " ");
+          for (int i = 0; i < rangeArr.size(); i++) {
+              if (rangeArr.get(i)%2==0)
+              System.out.print(rangeArr.get(i) + " ");
     }
 }}
