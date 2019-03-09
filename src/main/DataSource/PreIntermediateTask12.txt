@@ -1,0 +1,3 @@
+12. Imagine that you have a special skill which allows to calculate amount of digits in any integer positive
+number. For example, if number is 12345, amount=15. Write a method which checks your
+superpower for any hard-coded number.
