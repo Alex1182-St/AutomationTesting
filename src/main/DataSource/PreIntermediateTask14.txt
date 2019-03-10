@@ -1,0 +1,6 @@
+14. Write a method which takes a word and prints it like a diagonal matrix. See example:
+Input: “Test”
+Output: T
+            e
+                s
+                    t

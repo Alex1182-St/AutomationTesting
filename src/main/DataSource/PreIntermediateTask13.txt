@@ -1,0 +1,1 @@
+13. Write a method for calculating quadratic equation. It takes a, b, c numbers and print the solution
