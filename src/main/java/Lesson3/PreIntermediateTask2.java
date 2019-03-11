@@ -1,7 +1,7 @@
 package Lesson3;
 
 import Lesson3.Methods.CharactersSwap;
-import Lesson3.Methods.Smile;
+
 import Lesson3.Methods.TaskDescriptionRead;
 
 import java.io.IOException;

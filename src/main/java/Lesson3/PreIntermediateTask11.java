@@ -1,6 +1,6 @@
 package Lesson3;
 
-import Lesson3.Methods.AdjacentDigits;
+
 import Lesson3.Methods.SequencePresenceInArr;
 import Lesson3.Methods.TaskDescriptionRead;
 

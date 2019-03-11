@@ -1,0 +1,4 @@
+1. Superpower (complicated). Imagine that you have a special skill which allows to calculate amount of
+digits in any integer positive number. For example, if number is 12345, amount=15. Write a program
+which checks your superpower when user enters necessary number via console (in IDE). Use error
+guessing technique for provide additional checks

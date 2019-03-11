@@ -3,7 +3,7 @@ package Lesson3;
 import Lesson3.Methods.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
+
 
 public class PreIntermediateTask10 {
 

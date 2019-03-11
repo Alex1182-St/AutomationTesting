@@ -1,7 +1,6 @@
 package Lesson3;
 
-import Lesson3.Methods.ArrElementsSum;
-import Lesson3.Methods.IntArrayListFromNumber;
+
 import Lesson3.Methods.QuadraticEquation;
 import Lesson3.Methods.TaskDescriptionRead;
 

@@ -2,11 +2,11 @@ package Lesson3;
 
 import Lesson3.Methods.ArrElementsSum;
 import Lesson3.Methods.IntArrayListFromNumber;
-import Lesson3.Methods.SequencePresenceInArr;
+
 import Lesson3.Methods.TaskDescriptionRead;
 
 import java.io.IOException;
-import java.util.ArrayList;
+
 
 public class PreIntermediateTask12 {
 

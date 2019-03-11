@@ -1,6 +1,6 @@
 package Lesson3;
 
-import Lesson3.Methods.QuadraticEquation;
+
 import Lesson3.Methods.StringToDiagMatrix;
 import Lesson3.Methods.TaskDescriptionRead;
 
