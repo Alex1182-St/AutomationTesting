@@ -1,9 +1,14 @@
 package Lesson3;
 
-import Lesson3.Methods.StringToDiagMatrix;
-import Lesson3.Methods.TaskDescriptionRead;
+
+import Lesson3.A1_Methods.ArrElementsSum;
+import Lesson3.A1_Methods.IntArrayListFromNumber;
+import Lesson3.A1_Methods.StringFromIntWithScan;
+import Lesson3.A1_Methods.TaskDescriptionRead;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 
 public class IntermediateTask1 {
 
@@ -15,6 +20,15 @@ public class IntermediateTask1 {
         System.out.println("Task1. Intermediate level");
         TaskDescriptionRead TaskDescription12 = new TaskDescriptionRead();
         TaskDescription12.taskDescriptionReading(taskDescriptionPath);
+
+        StringFromIntWithScan newStr = new StringFromIntWithScan();
+        String a = newStr.stringFromInt();
+
+        IntArrayListFromNumber newIntArr = new IntArrayListFromNumber();
+        ArrayList<Integer> arr = newIntArr.amountOfDigs(a);
+
+        ArrElementsSum newSum = new ArrElementsSum();
+        System.out.println(newSum.arrSum(arr));
 
 
     }}
