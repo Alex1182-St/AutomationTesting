@@ -1,0 +1,2 @@
+7. Addition of matrices. Add two matrix according to the common math rules and print the output to
+the console

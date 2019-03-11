@@ -29,15 +29,15 @@ public class QuadraticEquation {
             System.out.println("\nThe equation has two identical roots. Solutions are: ");
             root1 = - b / (2 * a);
             root2 = - b / (2 * a);
-            System.out.println("Root1: " + root1);
-            System.out.println("Root2: " + root2);
+            System.out.println("Solution1: " + root1);
+            System.out.println("Solution2: " + root2);
         }
         if (discriminant > 0) {
             System.out.println("\nThe equation has two unequal roots. Solutions are: ");
             root1 = ( - b + Math.sqrt(discriminant)) / ( 2 * a );
             root2 = ( - b - Math.sqrt(discriminant)) / ( 2 * a );
-            System.out.println("Root1: " + root1);
-            System.out.println("Root2: " + root2);
+            System.out.println("Solution1: " + root1);
+            System.out.println("Solution2: " + root2);
         }
 
         scan.close();
