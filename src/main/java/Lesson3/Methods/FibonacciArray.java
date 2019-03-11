@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class FibonacciArray {
 
-    public ArrayList fiboArr (int arrLength) {
+    public ArrayList<Long> fiboArr (int arrLength) {
 
-        ArrayList<Integer> arr = new ArrayList<Integer>();
-        int a1=1;
-        int a2=1;
-        int a3;
+        ArrayList<Long> arr = new ArrayList<Long>();
+        long a1=1;
+        long a2=1;
+        long a3;
 
         arr.add(a1);
         arr.add(a2);

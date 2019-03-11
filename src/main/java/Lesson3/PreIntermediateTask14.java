@@ -10,7 +10,7 @@ public class PreIntermediateTask14 {
 
     public static void main(String[] args) throws IOException {
 
-        String taskDescriptionPath = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\PreIntermediateTask14.txt";
+        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\PreIntermediateTask14.txt";
         String word = "Test";
 
         System.out.println("Task14. PreIntermediate level");

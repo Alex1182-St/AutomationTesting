@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class ArrFromFibonacciOdds {
 
 
-    public ArrayList oddArr (ArrayList<Integer> arr, int length) {
+    public ArrayList<Long> oddArr (ArrayList<Long> arr, int length) {
 
-        ArrayList<Integer> odd = new ArrayList<Integer>();
+        ArrayList<Long> odd = new ArrayList<Long>();
 
 
         for (int i = 0; i < arr.size(); i++) {
