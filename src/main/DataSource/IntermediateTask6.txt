@@ -1,0 +1,2 @@
+6. The longest word. Write a method which returns the longest word in the input string. Compare only
+letters separated by space symbol

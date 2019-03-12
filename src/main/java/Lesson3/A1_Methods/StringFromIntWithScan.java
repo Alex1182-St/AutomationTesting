@@ -22,8 +22,10 @@ public class StringFromIntWithScan {
 
         String numberString = Integer.toString(number);
 
+        sc.close();
         return numberString;
     }
+
 
 
 }

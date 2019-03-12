@@ -1,0 +1,3 @@
+5. Temperature converter. Write a program for temperature converter between Celsius and Kelvin and
+vice versa. Use OOP for realizing separate class with appropriate methods and call them in the main
+class of your program
