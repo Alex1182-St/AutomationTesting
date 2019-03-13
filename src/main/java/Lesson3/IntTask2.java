@@ -4,19 +4,22 @@ public class IntTask2 {
 
     public static void main(String[] args) {
 
-        int a = 001;
-        int b = 999;
+        int minnumber = 1;
+        int maxnumber = 9;
+        int numberLength = 6;
 
-        for (int i = a; i <=b ; i++) {
-            System.out.println(i);
+        int a;
 
-        }
+        for (int i = minnumber; i <= maxnumber; i++) {
+              a = minnumber++;
+            System.out.println("number-"+a);
 
+            for (int j = 0; j <numberLength; j++) {
+                int b = a%10;
+                System.out.println(b);
+                a = a/10;
 
+        }}
 
+    }}
 
-    }
-
-
-
-}
