@@ -1,0 +1,9 @@
+1. Password generator. Apple ID requires a password strong enough to protect your account, data and
+money. It's difficult to come up a good example of password which meets the following requirements
+from Apple:
+- should include uppercase and lowercase Latin letters
+- should include digit (-s)
+- should be at least 8 characters.
+Please write a program which generates a random password considering the above-mentioned
+requirements. Choose the max length of password within reasonable limits (for ex. set mas password's
+length = 15)
