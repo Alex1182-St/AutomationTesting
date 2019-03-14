@@ -1,0 +1,2 @@
+2. Years converter. Write a program which takes Arabic numerals in range (0..2015)​ and returns their
+Romanian analogue. Do not create dual converter, just Arabic > Romanian
