@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson3.D1_IntermediateTasks;
 
 
 import Lesson3.A1_Methods.*;

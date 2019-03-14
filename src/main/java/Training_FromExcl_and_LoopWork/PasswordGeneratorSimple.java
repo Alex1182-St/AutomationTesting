@@ -1,8 +1,8 @@
-package Lesson3.A1_Methods;
+package Training_FromExcl_and_LoopWork;
 
 import java.util.ArrayList;
 
-public class PasswordGenerator {
+public class PasswordGeneratorSimple {
 
     public void passGen () {
 
