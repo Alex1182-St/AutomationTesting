@@ -1,4 +1,4 @@
-package Training_FromExcl_and_LoopWork;
+package Training_Source_Library;
 
 public class HowLoopWork {
 
