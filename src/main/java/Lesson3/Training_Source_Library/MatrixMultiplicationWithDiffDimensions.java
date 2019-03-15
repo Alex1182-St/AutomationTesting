@@ -1,4 +1,4 @@
-package Training_Source_Library;
+package Lesson3.Training_Source_Library;
 
 public class MatrixMultiplicationWithDiffDimensions {
 
