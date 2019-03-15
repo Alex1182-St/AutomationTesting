@@ -19,7 +19,7 @@ public class AdvancedTask2 {
         TaskDescription31.taskDescriptionReading(taskDescriptionPath);
 
         ArabicToRoman newConvert = new ArabicToRoman();
-        newConvert.arabToRom(arabicNum);
+        System.out.println(newConvert.arabToRom(arabicNum));
 
 
     }}

@@ -9,9 +9,7 @@ public class TestArabicToRoman {
     ArabicToRoman testArabicToRoman = new ArabicToRoman();
 
     @Test
-
     public void testAtR () throws Exception {
         Assert.assertEquals("MCMXCIX", testArabicToRoman.arabToRom(1999));
     }
-
 }

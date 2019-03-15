@@ -4,9 +4,9 @@ package Lesson3.A1_Methods;
 
 public class ArabicToRoman {
 
-    public void arabToRom (int num) {
+    public String arabToRom (int num) {
 
-        String roman = " ";
+        String roman = "";
 
       //  int[] arabic = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
 
@@ -65,7 +65,7 @@ public class ArabicToRoman {
             num -= 1;
         }
 
-        System.out.println("\n Your Roman is" + roman);
+        return roman;
     }}
 
 
