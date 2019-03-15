@@ -1,6 +1,6 @@
-8. CamelCaseSeparator. Some testing frameworks can read names of test methods and include them to
+8. CamelCaseSeparator. Some testing frameworks can read names of test_Lesson3 methods and include them to
 the report like a beautiful sentence.​ As you know, we use camelCaseNamingPolicy during writing our
-tests. Please write a method which takes a test name and returns beautiful sentence for report.
+tests. Please write a method which takes a test_Lesson3 name and returns beautiful sentence for report.
 Example:
 Input: "checkChangingProfilePicture“
 Output: "Check changing profile picture"

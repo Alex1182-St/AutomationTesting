@@ -1,9 +1,9 @@
 3. Happy Test Manager
 Pre-conditions:
 Your Test Manager is a good guy but unfortunately he doesn't understand how to decide whether the last build is stable for
-release or it isn't. Let's imagine that he has a test report with the follow data:
+release or it isn't. Let's imagine that he has a test_Lesson3 report with the follow data:
 
-- passed/failed number of test cases (TC)
+- passed/failed number of test_Lesson3 cases (TC)
 - complete number of unresolved issues
 - number of unresolved issues (bugs) with HIGH priority
 - number of unresolved issues (bugs) with Blocker and Critical severity
@@ -13,7 +13,7 @@ with more than 10 unresolved issues with HIGH priority or 5 unresolved issues wi
 throws in her two cents and insists that number of unresolved Blocker issues should be less than 5% of complete issues'
 number
 Challenge:
-Please help your Test Manager and create a program which will read above-mentioned test report data as a user input,
+Please help your Test Manager and create a program which will read above-mentioned test_Lesson3 report data as a user input,
 calculate all metrics and print build result (stable or not) to the console. In case if build isn't stable, output some additional
 explanation for Test Manager.
 Additional requirements:
