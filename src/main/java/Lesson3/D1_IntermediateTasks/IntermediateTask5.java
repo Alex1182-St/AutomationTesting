@@ -11,7 +11,7 @@ public class IntermediateTask5 {
 
     public static void main(String[] args) throws IOException {
 
-        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\IntermediateTask5.txt";
+        String taskDescriptionPath = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\IntermediateTask5.txt";
 
         System.out.println("\nTask5. Intermediate level");
         TaskDescriptionRead TaskDescription31 = new TaskDescriptionRead();

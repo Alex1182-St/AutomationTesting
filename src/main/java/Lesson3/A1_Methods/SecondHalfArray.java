@@ -8,7 +8,12 @@ public class SecondHalfArray {
 
     public void arrHalf (ArrayList<Integer> arr) {
 
-        Object [] array = arr.toArray(); //ArrayList to Array(array of object type)
+        Object [] array = arr.toArray();
+
+        /**ArrayList to Array(array of object type)
+        */
+
+
 
         System.out.println("\nArray length is " + array.length);
 

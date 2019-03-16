@@ -10,8 +10,8 @@ public class BeginnerTask1 {
 
     public static void main(String[] args) throws IOException {
 
-        String taskDescriptionPath = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask1.txt";
-        String arrayDataAddress = "C:\\Users\\stepanyuk\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayData1.xlsx";
+        String taskDescriptionPath = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\BeginnerTask1.txt";
+        String arrayDataAddress = "C:\\Users\\oleks\\IdeaProjects\\AutomationTesting\\src\\main\\DataSource\\ArrayData1.xlsx";
 
         System.out.println("Task1. Beginner level");
         TaskDescriptionRead TaskDescription1 = new TaskDescriptionRead();

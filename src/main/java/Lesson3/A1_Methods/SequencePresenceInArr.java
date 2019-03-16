@@ -14,7 +14,7 @@ public class SequencePresenceInArr {
 
                 arrSequence.add(arr.get(i + j));
             }
-            if (sequence.equals(arrSequence))  {
+            if (sequence.equals(arrSequence))  { //сравнение масивов
 
                 System.out.println("\nTrue " + sequence + " is present in " + arr);
 
