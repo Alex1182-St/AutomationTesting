@@ -10,30 +10,18 @@ public class IntsDivisionTest {
 
     IntsDivision newDivision = new IntsDivision();
 
-    @Test
-    public void testSetA() {
-
-        Assert.assertEquals(10, newDivision.setA(10));
-    }
-
-    @Test
-    public void testGetA() {
-
-        Assert.assertEquals(10, newDivision.getA());
-    }
-
-    @Test
-    public void testSetB() {
-    }
-
-    @Test
-    public void testGetB() {
-    }
 
 
     @Test
     public void testDivisionMethod() {
 
-        Assert.assertEquals(2, newDivision.divisionMethod());
+        newDivision.setA(10);
+        newDivision.getA();
+        newDivision.setB(5);
+        newDivision.getB();
+
+        Assert.assertEquals(2.0, newDivision.divisionMethod());
     }
+
+
 }

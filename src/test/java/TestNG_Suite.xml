@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="Test">
+        <classes>
+            <class name="Test_Lesson3.IntsDivisionTest" />
+            <class name="Test_Lesson3.MultiplicationArrayListTest" />
+            <class name="Test_Lesson3.TestArabicToRoman" />
+            <class name="Test_Lesson3.SumOfNumbsInStringTest" />
+
+        </classes>
+    </test>
+</suite>

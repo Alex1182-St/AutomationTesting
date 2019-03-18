@@ -4,7 +4,7 @@ import Lesson3.A1_Methods.TemperatureConverter;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestTemperatureConverte {
+public class TestTemperatureConverter {
 
 
     TemperatureConverter testTempConverter = new TemperatureConverter();
