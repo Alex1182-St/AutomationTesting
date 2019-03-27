@@ -7,7 +7,7 @@
             <class name="Test_Lesson3.MultiplicationArrayListTest" />
             <class name="Test_Lesson3.TestArabicToRoman" />
             <class name="Test_Lesson3.SumOfNumbsInStringTest" />
-
+            <class name="Test_Lesson3.MatrixMultiplicationWithDiffDimensionsTest" />
         </classes>
     </test>
 </suite>
