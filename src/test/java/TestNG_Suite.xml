@@ -8,6 +8,7 @@
             <class name="Test_Lesson3.TestArabicToRoman" />
             <class name="Test_Lesson3.SumOfNumbsInStringTest" />
             <class name="Test_Lesson3.MatrixMultiplicationWithDiffDimensionsTest" />
+            <class name="Test_Lesson3.SignUpForFreeButtonWithScreenshootTest" />
         </classes>
     </test>
 </suite>
