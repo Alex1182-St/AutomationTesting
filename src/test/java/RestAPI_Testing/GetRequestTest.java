@@ -32,7 +32,14 @@ public class GetRequestTest {
 
     resp.then().body("data.id", hasItems(4, 5, 6));
 
-
 }
 
+@Test // інший варіант написання коду для перевірки наґявності в JSON слів
+
+    public void getRequestBodyCheck2 () {
+
+     RestAssured.get("https://www.reqres.in/api/users?page=2").then().body("data.id", hasItems(4,5,6));
+
+    }
 }
+
