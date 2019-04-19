@@ -3,12 +3,13 @@
 <suite name="TestSuite">
     <test name="Test">
         <classes>
-            <class name="Test_Lesson3.IntsDivisionTest" />
-            <class name="Test_Lesson3.MultiplicationArrayListTest" />
-            <class name="Test_Lesson3.TestArabicToRoman" />
-            <class name="Test_Lesson3.SumOfNumbsInStringTest" />
-            <class name="Test_Lesson3.MatrixMultiplicationWithDiffDimensionsTest" />
-            <class name="Test_Lesson3.SignUpForFreeButtonWithScreenshootTest" />
+            <class name="Test_Lesson3.IntsDivisionTest"/>
+            <class name="Test_Lesson3.MultiplicationArrayListTest"/>
+            <class name="Test_Lesson3.TestArabicToRoman"/>
+            <class name="Test_Lesson3.SumOfNumbsInStringTest"/>
+            <class name="Test_Lesson3.MatrixMultiplicationWithDiffDimensionsTest"/>
+            <class name="Test_Lesson3.SignUpForFreeButtonWithScreenshootTest"/>
+            <class name="RestAPI_Testing.GetRequestTest"/>
         </classes>
     </test>
 </suite>
