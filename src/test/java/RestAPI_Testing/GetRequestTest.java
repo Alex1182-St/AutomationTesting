@@ -1,9 +1,11 @@
-package Test_Lesson3;
+package RestAPI_Testing;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
 public class GetRequestTest {
 
@@ -11,7 +13,7 @@ public class GetRequestTest {
 
 @Test
 
-    public void getRequest () {
+    public void getRequestCodeCheck () {
 
     int statusCode = resp.getStatusCode();
 
@@ -22,14 +24,13 @@ public class GetRequestTest {
 }
 @Test
 
-    public void requestBody () {
+    public void getRequestBodyCheck () {
 
     String requestBody = resp.asString();
 
-    // Assert.assertEquals(requestBody, "");
+    System.out.println(requestBody);
 
-    System.out.println(resp.asString());
-
+    resp.then().body("data.id", hasItems(4, 5, 6));
 
 
 }
