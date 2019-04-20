@@ -8,6 +8,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
 public class GetRequestTest {
@@ -33,7 +34,11 @@ public class GetRequestTest {
 
     System.out.println("Response time " + time);
 
-    }
+    resp.then().time(lessThan(2000L));
+
+
+
+}
 
 @Test
 
