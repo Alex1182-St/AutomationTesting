@@ -25,9 +25,13 @@ public class GetRequestTest {
 
     System.out.println("Status code - " + statusCode );
 
+    resp.then().statusCode(200); // другий варіант перевірки statusCode
 
-    resp.then().statusCode(200);
 
+    long time = resp.getTime(); // Response time
+
+
+    System.out.println("Response time " + time);
 
     }
 
