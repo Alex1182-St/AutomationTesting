@@ -25,7 +25,12 @@ public class GetRequestTest {
 
     System.out.println("Status code - " + statusCode );
 
-}
+
+    resp.then().statusCode(200);
+
+
+    }
+
 @Test
 
     public void getRequestBodyCheck () {
