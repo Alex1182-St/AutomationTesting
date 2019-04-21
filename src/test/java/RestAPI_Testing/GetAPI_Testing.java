@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
-public class GetRequestTest {
+public class GetAPI_Testing {
 
     Response resp = RestAssured.get("https://www.reqres.in/api/users?page=2");
 
@@ -35,8 +35,6 @@ public class GetRequestTest {
     System.out.println("Response time " + time);
 
     resp.then().time(lessThan(2000L));
-
-
 
 }
 
@@ -70,3 +68,12 @@ public class GetRequestTest {
         }
 }}
 
+/* встановити Hamcrest
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.1</version>
+            <scope>test</scope>
+        </dependency>
+ */
