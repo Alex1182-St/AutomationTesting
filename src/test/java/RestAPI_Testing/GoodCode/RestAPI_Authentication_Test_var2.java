@@ -14,7 +14,7 @@ public class RestAPI_Authentication_Test_var2 extends Authentication_BaseClass {
                 .get()
                 .getStatusCode();
 
-        System.out.println(" Code " + statusCode);
+        System.out.println("Code " + statusCode);
 
 
     }

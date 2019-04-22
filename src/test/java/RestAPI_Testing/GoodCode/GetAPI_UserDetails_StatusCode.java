@@ -8,8 +8,9 @@ import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
 public class GetAPI_UserDetails_StatusCode {
 
-    @Test
 
+
+    @Test
     public void getRequestTest () {
 
         RestAssured.baseURI = "https://www.reqres.in";
