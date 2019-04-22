@@ -1,8 +1,10 @@
-package RestAPI_Testing;
+package RestAPI_Testing.GoodCode;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
+
+import static org.hamcrest.core.IsCollectionContaining.hasItems;
 
 public class GetAPI_UserDetails_StatusCode {
 
@@ -23,7 +25,9 @@ public class GetAPI_UserDetails_StatusCode {
                 .and()
                 .header("Server", "cloudflare")
                 .and()
-                .header("Content-Encoding", "gzip");
+                .header("Content-Encoding", "gzip")
+                .and()
+                .body("data.id", hasItems(4, 5, 6));
 
     }
 

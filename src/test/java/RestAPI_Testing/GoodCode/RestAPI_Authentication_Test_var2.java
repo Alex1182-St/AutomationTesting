@@ -1,4 +1,4 @@
-package RestAPI_Testing;
+package RestAPI_Testing.GoodCode;
 
 import Library.Authentication_BaseClass;
 import io.restassured.RestAssured;

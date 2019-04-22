@@ -10,8 +10,7 @@ import static org.hamcrest.Matchers.lessThan;
 
 public class PostAPI_RegisterUnsuccess_Testing {
 
-@Test
-
+    @Test
     public void postRequestCodeCheck () {
 
         RequestSpecification request = RestAssured.given();
@@ -32,7 +31,6 @@ public class PostAPI_RegisterUnsuccess_Testing {
         resp.then().statusCode(400);
 
         resp.then().time(lessThan(2000L));
-
 
     }
 

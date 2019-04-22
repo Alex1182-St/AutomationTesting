@@ -15,9 +15,7 @@ public class GetAPI_Testing {
 
     Response resp = RestAssured.get("https://www.reqres.in/api/users?page=2");
 
-
-@Test
-
+    @Test
     public void getRequestCodeCheck () {
 
     int statusCode = resp.getStatusCode();
@@ -28,18 +26,14 @@ public class GetAPI_Testing {
 
     resp.then().statusCode(200); // другий варіант перевірки statusCode
 
-
     long time = resp.getTime(); // Response time
-
 
     System.out.println("Response time " + time);
 
     resp.then().time(lessThan(2000L));
-
 }
 
-@Test
-
+    @Test
     public void getRequestBodyCheck () {
 
     String requestBody = resp.asString();
@@ -47,17 +41,13 @@ public class GetAPI_Testing {
     System.out.println(requestBody);
 
     resp.then().body("data.id", hasItems(4, 5, 6));
-
 }
 
-@Test // інший варіант написання коду для перевірки наґявності в JSON слів
-
+    @Test // інший варіант написання коду для перевірки наґявності в JSON слів
     public void getRequestBodyCheck2 () {
 
     RestAssured.get("https://www.reqres.in/api/users?page=2").then().body("data.id", hasItems(4,5,6));
-
     }
-
 
     @AfterMethod
     public void endTest(ITestResult result)
