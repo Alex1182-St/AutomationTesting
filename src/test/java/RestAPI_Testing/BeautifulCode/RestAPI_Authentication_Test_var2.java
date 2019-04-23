@@ -1,4 +1,4 @@
-package RestAPI_Testing.GoodCode;
+package RestAPI_Testing.BeautifulCode;
 
 import Library.Authentication_BaseClass;
 import io.restassured.RestAssured;
@@ -11,6 +11,7 @@ public class RestAPI_Authentication_Test_var2 extends Authentication_BaseClass {
     public void test1 () {
 
         int statusCode = RestAssured.given()
+                .when()
                 .get()
                 .getStatusCode();
 

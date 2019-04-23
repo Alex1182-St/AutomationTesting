@@ -1,4 +1,4 @@
-package RestAPI_Testing.GoodCode;
+package RestAPI_Testing.BeautifulCode;
 
 
 import io.restassured.RestAssured;

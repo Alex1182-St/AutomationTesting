@@ -1,4 +1,4 @@
-package RestAPI_Testing.GoodCode;
+package RestAPI_Testing.BeautifulCode;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -18,8 +18,7 @@ public class GetAPI_UserDetails_StatusCode {
                 .when()
                 .get("/api/users?page=2")
                 .then()
-                .assertThat().log()
-                .all()
+                .assertThat().log().all()
                 .statusCode(200)
                 .and()
                 .contentType(ContentType.JSON)

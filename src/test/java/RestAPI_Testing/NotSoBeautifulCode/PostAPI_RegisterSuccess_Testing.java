@@ -1,4 +1,4 @@
-package RestAPI_Testing;
+package RestAPI_Testing.NotSoBeautifulCode;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.lessThan;
 
-public class PostAPI_RegisterUnsuccess_Testing {
+public class PostAPI_RegisterSuccess_Testing {
 
     @Test
     public void postRequestCodeCheck () {
@@ -20,6 +20,7 @@ public class PostAPI_RegisterUnsuccess_Testing {
         JSONObject jsonObj = new JSONObject();
 
         jsonObj.put("email","sydney@fife");
+        jsonObj.put("password","pistol");
 
         // додаємо body
         request.body(jsonObj.toJSONString());
@@ -28,7 +29,7 @@ public class PostAPI_RegisterUnsuccess_Testing {
         Response resp = request.post("https://www.reqres.in/api/register");
 
         //перевірка
-        resp.then().statusCode(400);
+        resp.then().statusCode(201);
 
         resp.then().time(lessThan(2000L));
 

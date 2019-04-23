@@ -9,7 +9,7 @@
             <class name="Test_Lesson3.SumOfNumbsInStringTest"/>
             <class name="Test_Lesson3.MatrixMultiplicationWithDiffDimensionsTest"/>
             <class name="Test_Lesson3.SignUpForFreeButtonWithScreenshootTest"/>
-            <class name="RestAPI_Testing.GetAPI_Testing"/>
+            <class name="RestAPI_Testing.NotSoBeautifulCode.GetAPI_Testing"/>
         </classes>
     </test>
 </suite>

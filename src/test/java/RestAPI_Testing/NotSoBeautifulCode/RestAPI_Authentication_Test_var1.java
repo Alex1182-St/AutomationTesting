@@ -1,4 +1,4 @@
-package RestAPI_Testing;
+package RestAPI_Testing.NotSoBeautifulCode;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;

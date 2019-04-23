@@ -1,4 +1,4 @@
-package RestAPI_Testing;
+package RestAPI_Testing.NotSoBeautifulCode;
 
 import Library.ScreenshotTaking;
 import io.restassured.RestAssured;
