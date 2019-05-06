@@ -19,6 +19,7 @@ public class MasivIzSumiElementowMasiva {
         array.add(10);
 
 
+
         for (int i = 0; i < array.size() ; i=i+2) {
            int temp1 = array.get(i);
            int temp2 = array.get(i+1);
